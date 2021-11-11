@@ -1,0 +1,156 @@
+
+.bg-nav
+{
+
+  background-image:linear-gradient(rgb(22,43,99), rgb(40,68,141));
+  
+}
+
+
+.nav-font
+{
+  color:rgb(191, 211, 16) !important;
+  font-family: 'Mochiy Pop P One', sans-serif !important;
+  
+}
+
+.navbar-light
+{
+    color:rgb(191, 211, 16) !important;
+    
+    
+}
+.navbar-light .navbar-toggler-icon {
+    border-color:rgb(68, 99, 192);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 68, 99, 192.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .navbar-light .navbar-toggler
+  {
+    border-color:rgb(68, 99, 192);
+    color:rgb(115, 139, 209);
+  } 
+  .menu-font
+  {
+    color:white !important;
+    font-size: 16px;
+    font-weight:300;
+  }
+
+
+  .menu-font:hover
+  {
+    color:rgb(191, 211, 16) !important;
+    background-color:rgb(68, 99, 192);
+   
+  }
+  @media screen and (min-width: 992px) 
+  {
+  .rounded-start{
+    border-radius: 15px 0 0 15px !important;
+  }
+  .rounded-end
+  {
+    border-radius: 0 15px 15px 0 !important;
+  }
+
+  .img-50
+  {
+    height: 700px;
+    width: 100%;
+  }
+
+  .ms-45
+  {
+    margin-left: 2.1rem !important;
+  }
+  .mt-150{
+    margin-top:150px;
+    
+  }
+  .mt-140{
+    margin-top:130px;
+  }
+  }
+
+  @media screen and (max-width: 991px)
+   {
+    .rounded-start
+    {
+      border-radius: 15px 15px 0  0 !important;
+     
+    }
+    .rounded-end
+  {
+    border-radius: 0 0 15px 15px !important;
+   
+  }
+  .img-50
+  {
+    height: 400px;
+    width: 100%;
+  }
+  .nav-tab
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+  }
+
+  figure{
+    margin: 0 35% 3rem;
+    
+  }
+  figcaption{
+  
+    margin-left:-15px
+  }
+  }
+  .row>*
+  {
+    padding-right: 0;
+    padding-left:0;
+  }
+ 
+  .l-spacing{
+    letter-spacing: 5px;
+    color:rgb(191, 211, 16);
+  }
+  .blue{
+    color:rgb(40,68,141);
+  }
+
+  .promocje{
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right: 23%;
+    padding-left: 23%;
+  }
+
+  .cennik
+  {
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right: 25%;
+    padding-left: 25%;
+  
+  }
+  .border-cool
+  {
+    border: 4px outset #1C6EA4;
+    border-radius: 7px 7px 7px 7px;
+  }
+  .cennik:hover{
+    color:rgb(191, 211, 16);
+    background-color:rgb(40, 92, 141);
+  }
+  .promocje:hover{
+    color:rgb(191, 211, 16);
+    background-color:rgb(40, 92, 141);
+  }
+  .fs-1
+  {
+    font-size: 3.5rem !important;
+  }
+ 
