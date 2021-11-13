@@ -52,7 +52,13 @@
   {
     border-radius: 0 15px 15px 0 !important;
   }
-
+  .ms-lg-7{
+    margin-left:55px;
+  }
+  .ms-lg-6
+  {
+    margin-left:40px
+  }
   .img-50
   {
     height: 700px;
@@ -104,6 +110,18 @@
   
     margin-left:-15px
   }
+
+  .ms-lg-7{
+    margin-left:10px;
+  }
+  .ms-lg-6
+  {
+    margin-left:2px
+  }
+  .ms-lg-2{
+    margin-left:-22px;
+  }
+ 
   }
   .row>*
   {
