@@ -3,9 +3,13 @@
 {
 
   background-image:linear-gradient(rgb(22,43,99), rgb(40,68,141));
+  border-bottom: rgb(191, 211, 16) solid 5px;
+}
+.bg-border
+{
+  border-top: rgb(191, 211, 16) solid 5px;
   
 }
-
 
 .nav-font
 {
