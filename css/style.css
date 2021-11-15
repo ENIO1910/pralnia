@@ -80,6 +80,10 @@
   .mt-100{
     margin-top:65px;
   }
+  .marka
+  {
+    margin: 0 47px 3rem;
+  }
   }
 
   @media screen and (max-width: 991px)
@@ -105,13 +109,11 @@
     margin-right: auto;
     width:50%;
   }
-  .map
-  {
-    margin: 0 25% 3rem;
-  }
+
+  
   .figure{
     margin: 0 35% 3rem;
-    
+   
   }
   figcaption{
   
@@ -179,3 +181,14 @@
     font-size: 3.5rem !important;
   }
  
+  @media screen and (max-width: 1182px)
+  {
+    .marka-centrum{
+      margin: 0 35% 3rem;
+     
+    }
+    .map
+    {
+      margin: 0 25% 3rem;
+    }
+  }
