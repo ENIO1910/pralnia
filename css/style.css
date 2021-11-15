@@ -77,8 +77,8 @@
     margin-top:150px;
     
   }
-  .mt-140{
-    margin-top:130px;
+  .mt-100{
+    margin-top:65px;
   }
   }
 
@@ -105,8 +105,11 @@
     margin-right: auto;
     width:50%;
   }
-
-  figure{
+  .map
+  {
+    margin: 0 25% 3rem;
+  }
+  .figure{
     margin: 0 35% 3rem;
     
   }
