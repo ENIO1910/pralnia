@@ -160,7 +160,11 @@
     width:50%;
   }
 
-  
+  .figure
+  {
+    display:block;
+    margin-left:40% !important;
+  }
  
   
  
