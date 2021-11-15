@@ -181,7 +181,7 @@ body{
   
  
   }
-  @media screen  @media screen and (max-width: 420px)
+@media screen and (max-width: 420px)
   {
     body{
       margin-left:-25px;
