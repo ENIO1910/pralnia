@@ -1,6 +1,12 @@
-body{
-  width:100%;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
 .bg-nav
 {
 
@@ -155,37 +161,10 @@ body{
   }
 
   
-  .figure{
-    margin: 0 35% 3rem;
-   
-  }
-  .margin-minus-25{
-  
-    margin-left: -25px;
-  }
-  .margin-minus-15{
-  
-    margin-left: -15px;
-  }
-
-  .ms-lg-7{
-    margin-left:10px;
-  }
-  .margin-minus-2
-  {
-    margin-left:-2px
-  }
-  .margin-minus-22{
-    margin-left: -22px;
-  }
+ 
   
  
   }
-@media screen and (max-width: 420px)
-  {
-    body{
-      margin-right:-100px;
-    }
-  }
+
  
  
