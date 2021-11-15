@@ -1,5 +1,5 @@
 body{
-  margin-right:-100px;
+  width:100%;
 }
 .bg-nav
 {
@@ -129,7 +129,7 @@ body{
 
   }
 
-  @media screen and (max-width: 991px)
+  @media screen and (max-width: 992px)
    {
    
     .rounded-start
@@ -158,6 +158,10 @@ body{
   .figure{
     margin: 0 35% 3rem;
    
+  }
+  .margin-minus-25{
+  
+    margin-left: -25px;
   }
   .margin-minus-15{
   
