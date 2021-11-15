@@ -73,27 +73,12 @@
     width: 100% !important;
   }
 
-  .ms-45
-  {
-    margin-left: 2.1rem !important;
-  }
-  
-  .mt-100{
-    margin-top:65px;
-  }
-  .marka
-  {
-    margin: 0 47px 3rem;
-  }
+
   }
 
   @media screen and (max-width: 991px)
    {
-     .rozmiar-s
-     {
-       width:120px;
-       height: 120px;
-     }
+   
     .rounded-start
     {
       border-radius: 15px 15px 0  0 !important;
@@ -121,7 +106,7 @@
     margin: 0 35% 3rem;
    
   }
-  figcaption{
+  .figcaption{
   
     margin-left:-15px
   }
