@@ -19,6 +19,7 @@
 {
   width: 100%;
   height: 600px;
+
 }
 .h-100{
   min-height: 100px !important;
@@ -208,3 +209,15 @@
     }
    
   }
+
+  .bg-image
+  {
+    background-image: url(../img/pralnia-woman-2.jpg);
+    width:100%;
+   
+    min-height: 700px;
+    background-attachment:fixed;
+    background-position: center;
+  }
+
+ 
