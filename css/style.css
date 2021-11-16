@@ -63,24 +63,7 @@
     color:rgb(40,68,141);
   }
 
-  .border-cennik
-  {
-    border: 4px outset #1C6EA4;
-    border-radius: 7px 7px 7px 7px;
-    padding-left: 124px;
-    padding-right: 124px;
-    background-color:rgb(40, 92, 141);
-   
-  }
-  .border-promocje
-  {
-    border: 4px outset #1C6EA4;
-    border-radius: 7px 7px 7px 7px;
-    padding-left: 93px;
-    padding-right: 93px;
-    background-color:rgb(40, 92, 141);
-    
-  }
+ 
   .border-promocje:hover{
     color:rgb(191, 211, 16) !important;
   }
@@ -130,10 +113,31 @@
     margin-left:40px;
   }
 
+  
+
   }
 
   @media screen and (max-width: 992px)
    {
+
+    .border-cennik
+  {
+    border: 4px outset #1C6EA4;
+    border-radius: 7px 7px 7px 7px;
+    padding-left: 93px;
+    padding-right: 93px;
+    background-color:rgb(40, 92, 141);
+   
+  }
+  .border-promocje
+  {
+    border: 4px outset #1C6EA4;
+    border-radius: 7px 7px 7px 7px;
+    padding-left: 62px;
+    padding-right: 62px;
+    background-color:rgb(40, 92, 141);
+    
+  }
    
     .rounded-start
     {
