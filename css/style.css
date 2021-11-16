@@ -170,7 +170,10 @@
   {
     width:100% !important; 
   }
-  
+  .list-none
+  {
+    list-style-type: none;
+  }
  
   }
 
