@@ -219,5 +219,15 @@
     background-attachment:fixed;
     background-position: center;
   }
+  .bg-image-cennik
+  {
+    background-image: url(../img/ubrania-2.jpg);
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;   
+  }
 
  
