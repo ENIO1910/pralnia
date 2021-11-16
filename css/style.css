@@ -183,12 +183,11 @@
     border-radius: 0 0 15px 15px !important;
    
   }
-  .margin-center
+  .nav-tab
   {
     margin-left: auto;
     margin-right: auto;
     width:50%;
-    text-align: center;
   }
  
   }
@@ -203,5 +202,4 @@
     {
       border-radius: 0 15px 15px 0 !important;
     }
-   
   }
