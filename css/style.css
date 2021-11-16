@@ -150,7 +150,10 @@
     background-color:rgb(40, 92, 141);
     
   }
- 
+  .w-map
+  {
+    width:100% !important; 
+  }
   
  
   }
