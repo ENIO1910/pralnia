@@ -88,7 +88,7 @@
     background-color:rgb(68, 99, 192);
    
   }
-  @media screen and (min-width: 992px) 
+  @media screen and (min-width:992px) 
   {
   .rounded-start{
     border-radius: 15px 0 0 15px !important;
@@ -136,7 +136,7 @@
 
   }
 
-  @media screen and (max-width: 992px)
+  @media screen and (max-width:992px)
    {
 
     .border-cennik
