@@ -112,6 +112,25 @@
   .margin-s-15{
     margin-left:40px;
   }
+  .border-cennik
+  {
+    border: 4px outset #1C6EA4;
+    border-radius: 7px 7px 7px 7px;
+    padding-left: 94px;
+    padding-right: 94px;
+    background-color:rgb(40, 92, 141);
+
+   
+  }
+  .border-promocje
+  {
+    border: 4px outset #1C6EA4;
+    border-radius: 7px 7px 7px 7px;
+    padding-left: 62px;
+    padding-right: 62px;
+    background-color:rgb(40, 92, 141);
+    
+  }
 
   
 
@@ -133,8 +152,8 @@
   {
     border: 4px outset #1C6EA4;
     border-radius: 7px 7px 7px 7px;
-    padding-left: 36px;
-    padding-right: 36px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color:rgb(40, 92, 141);
     
   }
