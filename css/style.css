@@ -6,6 +6,12 @@
     padding: 0;
 }
 
+.list-none
+  {
+    list-style-type: none;
+  }
+ 
+
 .border-map{
   border: 3px ridge rgb(22,43,99);
 }
@@ -170,11 +176,7 @@
   {
     width:100% !important; 
   }
-  .list-none
-  {
-    list-style-type: none;
-  }
- 
+  
   }
 
   @media screen and (max-width:1199px)
