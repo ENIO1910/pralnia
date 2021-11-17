@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -28,29 +31,29 @@
 
             <a class="navbar-brand ms-5" href="index.html"> <img src="img/logo.png" height="100" class="position-absolute top-0 start-0" alt="logo"></a>
            
-            <button id="button" class="me-5 c-button" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expended="false" aria-label="przełącznik nawigacji">
-				<i class="icon-menu"></i>
+            <button id="button" class="c-button me-5" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expended="false" aria-label="przełącznik nawigacji">
+				<i id="przycisk" class="icon-menu "></i>
 			</button>
             
             <div class="collapse navbar-collapse element flex flex-row justify-content-center" id="mainmenu">
                     <ul class="navbar-nav ms-0 text-uppercase mt-5 mt-xl-0 text-center">
                         <li class="nav-item nav-tab">
-                            <a class="nav-link menu-font rounded-start" href="index.html"> o nas </a>
+                            <a class="nav-link menu-font rounded-start fs-3" href="index.html"> o nas </a>
                         </li>
                         <li class="nav-item nav-tab">
-                            <a class="nav-link menu-font" href="cennik.html"> Cennik </a>
+                            <a class="nav-link menu-font fs-3" href="cennik.html"> Cennik </a>
                         </li>
                         <li class="nav-item nav-tab">
-                            <a class="nav-link menu-font" href="#"> Promocje </a>
+                            <a class="nav-link menu-font fs-3" href="#"> Promocje </a>
                         </li>
                         <li class="nav-item nav-tab">
-                            <a class="nav-link menu-font" href="#"> Pranie na telefon </a>
+                            <a class="nav-link menu-font fs-3" href="#"> Pranie na telefon </a>
                         </li>
                         <li class="nav-item nav-tab">
-                            <a class="nav-link menu-font" href="#"> dla biznesu </a>
+                            <a class="nav-link menu-font fs-3" href="#"> dla biznesu </a>
                         </li>
-                        <li class="nav-item nav-tab">
-                            <a class="nav-link menu-font br-last  rounded-end" href="#"> kontakt </a>
+                        <li class="nav-item nav-tab ">
+                            <a class="nav-link menu-font br-lasx 3 rounded-end fs-3" href="#"> kontakt </a>
                         </li>         
                 
                     </ul>
@@ -237,7 +240,12 @@
         });
 
         });
-            
+        const button = $('#button');
+        var prz = $('#przycisk')
+        button.on('click',function(){
+            prz.toggleClass('klik');
+        });
+       
       
             
     </script>
