@@ -116,6 +116,10 @@
   
 }
 
+.table{
+  cursor:pointer;
+}
+
 
   .menu-font
   {
@@ -226,6 +230,8 @@
     background-position: center;
   }
 
+
+
   }
 
 
@@ -247,6 +253,7 @@
     background-color:rgb(40, 92, 141);
    
   }
+  
   
   .border-promocje
   {
@@ -302,6 +309,9 @@
     width:80px !important;
     height: 80px !important;
   }
+  .w-table{
+    width: 100%;
+  }
  
   }
  
@@ -318,6 +328,9 @@
    #button{
      display: none;
    }
+   .w-table{
+    width: 50%;
+  }
   }
 
   
