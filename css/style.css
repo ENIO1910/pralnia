@@ -12,8 +12,10 @@
   }
  
 
-.border-map{
-  border: 3px ridge rgb(22,43,99);
+.border-map
+{
+  border-top: rgb(191, 211, 16) solid 5px;
+  border-bottom: rgb(191, 211, 16) solid 5px;
 }
 .obrazek
 {
