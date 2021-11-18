@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
    
 </head>
 <body>
@@ -27,8 +30,8 @@
 
             <a class="navbar-brand ms-5" href="index.html"> <img src="img/logo.png" height="100" class="position-absolute top-0 start-0" alt="logo"></a>
            
-            <button id="button" class="me-5 c-button" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expended="false" aria-label="przełącznik nawigacji">
-				<i class="icon-menu"></i>
+            <button id="button" class="c-button me-5" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expended="false" aria-label="przełącznik nawigacji">
+				<i id="przycisk" class="icon-menu "></i>
 			</button>
             
             <div class="collapse navbar-collapse element flex flex-row justify-content-center" id="mainmenu">
@@ -364,7 +367,6 @@
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"/></script>
   
-
     <script>
 
         jQuery(document).ready(function() {
@@ -385,11 +387,15 @@
         });
 
         });
-            
+        const button = $('#button');
+        var prz = $('#przycisk')
+        button.on('click',function(){
+            prz.toggleClass('klik');
+        });
+       
       
             
     </script>
-        
       
     
 </body>
