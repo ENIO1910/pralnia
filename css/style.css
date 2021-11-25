@@ -19,6 +19,7 @@
   border-top: rgb(191, 211, 16) solid 5px;
   border-bottom: rgb(191, 211, 16) solid 5px;
 }
+
 .obrazek
 {
   width: 100%;
@@ -224,8 +225,18 @@
     background-size:150%;
     background-attachment:fixed;
     background-position: center;
+
+ 
   }
 
+  .bg-grafiki{
+    background-image: url(../img/pralnia.jpg);
+    width:100%;
+    min-height: 500px;
+    background-size:150%;
+    background-attachment:fixed;
+    background-position: center;
+  }
 
 
   }
@@ -274,6 +285,15 @@
   .bg-image
   {
     background-image: url(../img/garnitury.jpg);
+    width:100%;
+    height: 500px;
+    background-size:350%;
+    background-attachment:fixed;
+    background-position: center;
+  }
+  .bg-grafiki
+  {
+    background-image: url(../img/pralnia.jpg);
     width:100%;
     height: 500px;
     background-size:350%;
