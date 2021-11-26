@@ -271,7 +271,11 @@
     background-color:rgb(40, 92, 141);
     
   }
- 
+  .w-50{
+    width: 100% !important;
+    margin-left:20px !important;
+    margin-right:20px !important;
+  }
   .bg-image-cennik
   {
     background-image: url(../img/ubrania-2.jpg);
