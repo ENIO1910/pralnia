@@ -273,8 +273,8 @@
   }
   .w-50{
     width: 100% !important;
-    margin-left:20px !important;
-    margin-right:20px !important;
+ 	padding-left:20px !important;
+	padding-right:20px !important;
   }
   .bg-image-cennik
   {
